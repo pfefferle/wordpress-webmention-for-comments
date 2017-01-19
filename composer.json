@@ -1,0 +1,19 @@
+{
+  "name": "pfefferle/wordpress-webmention-for-comments",
+  "description": "Webmention support for (threaded) comments",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Pfefferle",
+      "homepage": "http://notiz.blog"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "webmention-for-comments"
+  }
+}
