@@ -1,6 +1,5 @@
 {
   "name": "wordpress-webmention-for-comments",
-  "version": "1.0.0",
   "description": "WebMention support for (threaded) comments",
   "dependencies": {
     "grunt": "^0.4.5"
@@ -21,7 +20,7 @@
     "linkback"
   ],
   "author": "Matthias Pfefferle",
-  "license": "GPL-2.0+",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pfefferle/wordpress-webmention-for-comments/issues"
   },

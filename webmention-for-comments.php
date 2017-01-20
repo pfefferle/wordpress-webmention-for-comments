@@ -1,12 +1,14 @@
 <?php
-/*
- Plugin Name: WebMention for comments
- Plugin URI: https://github.com/pfefferle/wordpress-webmention-for-comments
- Description: Webmention support for WordPress comments
- Author: pfefferle
- Author URI: http://notizblog.org/
- Version: 1.0.0
-*/
+/**
+ * Plugin Name: WebMention for comments
+ * Plugin URI: https://github.com/pfefferle/wordpress-webmention-for-comments
+ * Description: Webmention support for WordPress comments
+ * Author: pfefferle
+ * Author URI: http://notizblog.org/
+ * Version: 1.0.1
+ * License: MIT
+ * License URI: https://opensource.org/licenses/MIT
+ */
 
 // initialize plugin
 add_action( 'init', array( 'WebMentionForCommentsPlugin', 'init' ) );
